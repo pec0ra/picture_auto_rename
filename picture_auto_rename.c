@@ -7,7 +7,7 @@
 #define EVENT_BUF_LEN		( 1024 * ( EVENT_SIZE + 16 ) )
 
 #define COMMAND			"jhead "
-#define FORMAT			"-n%y.%m.%d-%H.%M.%S "
+#define FORMAT			"-n%Y/%y.%m.%d-%H.%M.%S "
 
 char *escape_name(char *old_name){
 	int count = 0;
